@@ -11,6 +11,10 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
+
+    await queryInterface.bulkInsert('People', [{
+       title:"Todo Title",
+     }]);
   },
 
   down: async (queryInterface, Sequelize) => {
